@@ -18,7 +18,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_marginBottom="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/ic_home_black_24dp" />
+
         <LinearLayout
+            android:id="@+id/linearLayout"
             android:layout_width="match_parent"
             android:layout_height="120dp"
             android:layout_margin="10dp"
@@ -31,9 +44,9 @@
                 android:layout_marginRight="8dp"
                 android:layout_weight="1"
                 android:background="@drawable/aktivitaet_background"
-                android:text="Aktivität"
                 android:drawableTop="@drawable/ic_casino"
                 android:maxHeight="150dp"
+                android:text="Aktivität"
                 android:textColor="@android:color/white"
                 android:textSize="30sp" />
 
@@ -44,8 +57,8 @@
                 android:layout_marginLeft="8dp"
                 android:layout_weight="1"
                 android:background="@drawable/aktivitaet_background"
-                android:text="Profil"
                 android:drawableTop="@drawable/ic_person_white"
+                android:text="Profil"
                 android:textColor="@android:color/white"
                 android:textSize="30sp" />
         </LinearLayout>
