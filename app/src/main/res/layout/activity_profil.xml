@@ -42,7 +42,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/avatars[0]" />
+        tools:srcCompat="@drawable/test_profilbild" />
 
     <TextView
         android:id="@+id/textView7"
@@ -78,7 +78,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:drawableStart="@drawable/ic_cake"
-                android:gravity="center"
+                android:gravity="center_vertical"
                 android:text="19.03.1945"
                 android:textColor="@android:color/white"
                 android:textSize="24sp" />
@@ -89,7 +89,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:drawableStart="@drawable/ic_people"
-                android:gravity="center"
+                android:gravity="center_vertical"
                 android:text="Männlich"
                 android:textColor="@android:color/white"
                 android:textSize="24sp" />
@@ -100,7 +100,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:drawableStart="@drawable/ic_location_city_white"
-                android:gravity="center"
+                android:gravity="center_vertical"
                 android:text="Schlagergasse 2/1"
                 android:textColor="@android:color/white"
                 android:textSize="24sp" />
@@ -111,9 +111,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:drawableStart="@drawable/ic_casino"
-                android:gravity="center"
+                android:gravity="center_vertical"
                 android:text="Bowling, Tanzen"
-                android:textAlignment="center"
                 android:textColor="@android:color/white"
                 android:textSize="24sp" />
 
