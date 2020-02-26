@@ -6,6 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".Homescreen">
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_pk" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -28,7 +38,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.0"
-            app:srcCompat="@drawable/ic_home_black"/>
+            app:srcCompat="@drawable/ic_home_black" />
 
         <LinearLayout
             android:id="@+id/linearLayout"
@@ -45,10 +55,11 @@
                 android:layout_weight="1"
                 android:background="@drawable/homescreen_kachel"
                 android:drawableTop="@drawable/ic_casino"
+                android:fontFamily="sans-serif-black"
                 android:maxHeight="150dp"
                 android:text="Aktivität"
                 android:textColor="@android:color/white"
-                android:textSize="30sp" />
+                android:textSize="28sp" />
 
             <Button
                 android:id="@+id/button6"
@@ -58,9 +69,10 @@
                 android:layout_weight="1"
                 android:background="@drawable/homescreen_kachel"
                 android:drawableTop="@drawable/ic_person_white"
+                android:fontFamily="sans-serif-black"
                 android:text="Profil"
                 android:textColor="@android:color/white"
-                android:textSize="30sp" />
+                android:textSize="28sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -76,10 +88,11 @@
                 android:layout_marginRight="8dp"
                 android:layout_weight="1"
                 android:background="@drawable/homescreen_kachel"
-                android:text="Klubs"
                 android:drawableTop="@drawable/ic_location_city_white"
+                android:fontFamily="sans-serif-black"
+                android:text="Klubs"
                 android:textColor="@android:color/white"
-                android:textSize="30sp" />
+                android:textSize="28sp" />
 
             <Button
                 android:id="@+id/button8"
@@ -88,11 +101,16 @@
                 android:layout_marginLeft="8dp"
                 android:layout_weight="1"
                 android:background="@drawable/homescreen_kachel"
-                android:text="Austausch"
                 android:drawableTop="@drawable/ic_chat_bubble_white"
+                android:fontFamily="sans-serif-black"
+                android:text="Austausch"
                 android:textColor="@android:color/white"
-                android:textSize="30sp" />
+                android:textSize="28sp" />
+
         </LinearLayout>
 
+
     </LinearLayout>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

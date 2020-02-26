@@ -59,10 +59,11 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
 
             <Button
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp"
@@ -72,122 +73,82 @@
                 android:textSize="18sp" />
 
             <Button
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp"
                 android:background="@drawable/klubs_kachel"
-                android:text="Schlagergasse 2/1, 1090 Wien"
+                android:text="Beispiel 2"
                 android:textColor="@android:color/white"
                 android:textSize="18sp" />
 
             <Button
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp"
                 android:background="@drawable/klubs_kachel"
-                android:text="Schlagergasse 2/1, 1090 Wien"
+                android:text="Beispiel 3"
                 android:textColor="@android:color/white"
                 android:textSize="18sp" />
 
             <Button
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp"
                 android:background="@drawable/klubs_kachel"
-                android:text="Schlagergasse 2/1, 1090 Wien"
+                android:text="Beispiel 4"
                 android:textColor="@android:color/white"
                 android:textSize="18sp" />
 
             <Button
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp"
                 android:background="@drawable/klubs_kachel"
-                android:text="Schlagergasse 2/1, 1090 Wien"
+                android:text="Beispiel 5"
                 android:textColor="@android:color/white"
                 android:textSize="18sp" />
 
             <Button
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp"
                 android:background="@drawable/klubs_kachel"
-                android:text="Schlagergasse 2/1, 1090 Wien"
+                android:text="Beispiel 6"
                 android:textColor="@android:color/white"
                 android:textSize="18sp" />
 
             <Button
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp"
                 android:background="@drawable/klubs_kachel"
-                android:text="Schlagergasse 2/1, 1090 Wien"
+                android:text="Beispiel 7"
                 android:textColor="@android:color/white"
                 android:textSize="18sp" />
 
             <Button
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp"
                 android:background="@drawable/klubs_kachel"
-                android:text="Schlagergasse 2/1, 1090 Wien"
+                android:text="Beispiel 8"
                 android:textColor="@android:color/white"
                 android:textSize="18sp" />
 
             <Button
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp"
                 android:background="@drawable/klubs_kachel"
-                android:text="Schlagergasse 2/1, 1090 Wien"
-                android:textColor="@android:color/white"
-                android:textSize="18sp" />
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:layout_marginBottom="16dp"
-                android:background="@drawable/klubs_kachel"
-                android:text="Schlagergasse 2/1, 1090 Wien"
-                android:textColor="@android:color/white"
-                android:textSize="18sp" />
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:layout_marginBottom="16dp"
-                android:background="@drawable/klubs_kachel"
-                android:text="Schlagergasse 2/1, 1090 Wien"
-                android:textColor="@android:color/white"
-                android:textSize="18sp" />
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:layout_marginBottom="16dp"
-                android:background="@drawable/klubs_kachel"
-                android:text="Schlagergasse 2/1, 1090 Wien"
-                android:textColor="@android:color/white"
-                android:textSize="18sp" />
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:layout_marginBottom="16dp"
-                android:background="@drawable/klubs_kachel"
-                android:text="Schlagergasse 2/1, 1090 Wien"
+                android:text="Beispiel 9"
                 android:textColor="@android:color/white"
                 android:textSize="18sp" />
 
