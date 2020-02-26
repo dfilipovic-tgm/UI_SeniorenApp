@@ -1,7 +1,6 @@
 package com.example.ui_seniorenapp;
 
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -15,15 +14,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_homescreen);
 
-        Button button= (Button) findViewById(R.id.button3);
-        button.setOnClickListener(new View.OnClickListener() {
+        Button button5 = (Button) findViewById(R.id.button5);
+        button5.setOnClickListener(new View.OnClickListener() {
+            @Override
             public void onClick(View v) {
-
-                Uri gmmIntentUri = Uri.parse("google.navigation:q=Porzellangasse+14,+Vienna+Austria");
-                Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
-                mapIntent.setPackage("com.google.android.apps.maps");
-                startActivity(mapIntent);
-
+                Intent intent = new Intent(MainActivity.this, Aktivitaet.class);
+                startActivity(intent);
             }
         });
 
@@ -32,6 +28,26 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 Intent intent = new Intent(MainActivity.this, ChatActivity.class);
+                startActivity(intent);
+
+            }
+        });
+
+        Button button7 = (Button) findViewById(R.id.button7);
+        button7.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+
+                Intent intent = new Intent(MainActivity.this, Klubs.class);
+                startActivity(intent);
+
+            }
+        });
+
+        Button button6 = (Button) findViewById(R.id.button6);
+        button6.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+
+                Intent intent = new Intent(MainActivity.this, ProfilActivity.class);
                 startActivity(intent);
 
             }
