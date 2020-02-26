@@ -1,26 +1,32 @@
 package com.example.ui_seniorenapp;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-
-import androidx.appcompat.app.AppCompatActivity;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_homescreen);
+        setContentView(R.layout.activity_aktivitaet);
 
-        Button button = (Button) findViewById(R.id.button8);
+        Button button= (Button) findViewById(R.id.button3);
         button.setOnClickListener(new View.OnClickListener() {
-            @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(MainActivity.this, ChatActivity.class);
-                startActivity(myIntent);
+
+                Uri gmmIntentUri = Uri.parse("google.navigation:q=Schlagergasse+2,+Vienna+Austria");
+                Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+                mapIntent.setPackage("com.google.android.apps.maps");
+                startActivity(mapIntent);
+
             }
         });
+
     }
 }
