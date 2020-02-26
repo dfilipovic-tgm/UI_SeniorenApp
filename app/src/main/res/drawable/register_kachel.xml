@@ -4,6 +4,7 @@
     <stroke android:width="1dp"
         android:color="@color/Orange_corporate" />
 
+    <corners android:radius="20dp"/>
     <padding android:bottom="10dp"
         android:left="10dp"
         android:right="10dp"
