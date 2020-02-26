@@ -28,7 +28,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.0"
-            app:srcCompat="@drawable/ic_home_black_24dp" />
+            app:srcCompat="@drawable/ic_home_black"/>
 
         <LinearLayout
             android:id="@+id/linearLayout"
@@ -43,7 +43,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginRight="8dp"
                 android:layout_weight="1"
-                android:background="@drawable/aktivitaet_background"
+                android:background="@drawable/homescreen_kachel"
                 android:drawableTop="@drawable/ic_casino"
                 android:maxHeight="150dp"
                 android:text="Aktivität"
@@ -56,7 +56,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginLeft="8dp"
                 android:layout_weight="1"
-                android:background="@drawable/aktivitaet_background"
+                android:background="@drawable/homescreen_kachel"
                 android:drawableTop="@drawable/ic_person_white"
                 android:text="Profil"
                 android:textColor="@android:color/white"
@@ -75,7 +75,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginRight="8dp"
                 android:layout_weight="1"
-                android:background="@drawable/aktivitaet_background"
+                android:background="@drawable/homescreen_kachel"
                 android:text="Klubs"
                 android:drawableTop="@drawable/ic_location_city_white"
                 android:textColor="@android:color/white"
@@ -87,7 +87,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginLeft="8dp"
                 android:layout_weight="1"
-                android:background="@drawable/aktivitaet_background"
+                android:background="@drawable/homescreen_kachel"
                 android:text="Austausch"
                 android:drawableTop="@drawable/ic_chat_bubble_white"
                 android:textColor="@android:color/white"

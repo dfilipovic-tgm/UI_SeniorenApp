@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
 
-                Uri gmmIntentUri = Uri.parse("google.navigation:q=Schlagergasse+2,+Vienna+Austria");
+                Uri gmmIntentUri = Uri.parse("google.navigation:q=Porzellangasse+14,+Vienna+Austria");
                 Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
                 mapIntent.setPackage("com.google.android.apps.maps");
                 startActivity(mapIntent);
