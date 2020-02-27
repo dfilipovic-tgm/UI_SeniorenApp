@@ -21,7 +21,7 @@ public class Klubs extends AppCompatActivity {
 
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(Klubs.this, klub_info.class);
+                Intent intent = new Intent(Klubs.this, KlubInfo.class);
                 startActivity(intent);
 
             }
