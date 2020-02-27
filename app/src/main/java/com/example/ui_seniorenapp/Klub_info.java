@@ -15,7 +15,7 @@ public class Klub_info extends AppCompatActivity {
         setContentView(R.layout.activity_klub_info);
 
 
-        Button button = (Button) findViewById(R.id.buttonHome);
+        Button button = (Button) findViewById(R.id.button_home);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
 
