@@ -15,6 +15,9 @@ public class Klubs extends AppCompatActivity {
         setContentView(R.layout.activity_klubs);
 
         Button button = (Button) findViewById(R.id.buttonSchlag);
+        Button button2 = (Button) findViewById(R.id.button_home);
+
+
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
 
@@ -23,5 +26,9 @@ public class Klubs extends AppCompatActivity {
 
             }
         });
+
+
+
     }
+
 }
