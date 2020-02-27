@@ -14,20 +14,25 @@ public class Klubs extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_klubs);
 
-        Button button = (Button) findViewById(R.id.buttonSchlag);
-        Button button2 = (Button) findViewById(R.id.button_home);
+        final Button button = (Button) findViewById(R.id.buttonSchlag);
+        final Button button2 = (Button) findViewById(R.id.button_home);
 
 
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-
                 Intent intent = new Intent(Klubs.this, klub_info.class);
                 startActivity(intent);
 
             }
         });
 
+        button2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(Klubs.this, MainActivity.class);
+                startActivity(intent);
 
+            }
+        });
 
     }
 
