@@ -7,7 +7,7 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Klub_info extends AppCompatActivity {
+public class KlubInfo extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +19,7 @@ public class Klub_info extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
 
-                Intent intent = new Intent(Klub_info.this, MainActivity.class);
+                Intent intent = new Intent(KlubInfo.this, MainActivity.class);
                 startActivity(intent);
 
             }
