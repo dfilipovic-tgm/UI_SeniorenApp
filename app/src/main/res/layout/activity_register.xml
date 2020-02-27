@@ -16,154 +16,142 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo_pk" />
 
-    <TextView
-        android:id="@+id/textView_Vorname"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="Vorname"
-        android:textColor="@color/Rot_corporate"
-        android:textSize="22sp"
-        app:layout_constraintStart_toStartOf="@+id/editText_Vorname"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
-
-    <EditText
-        android:id="@+id/editText_Vorname"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="16dp"
-        android:background="@drawable/register_kachel"
-        android:ems="10"
-        android:hint="Max"
-        android:inputType="textPersonName"
+    <ScrollView
+        android:layout_width="393dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_Vorname" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView2">
 
-    <TextView
-        android:id="@+id/textView_Nachname"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="Nachname"
-        android:textColor="@color/Rot_corporate"
-        android:textSize="22sp"
-        app:layout_constraintStart_toStartOf="@+id/editText_Vorname"
-        app:layout_constraintTop_toBottomOf="@+id/editText_Vorname" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-    <EditText
-        android:id="@+id/editText_Nachname"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="16dp"
-        android:background="@drawable/register_kachel"
-        android:ems="10"
-        android:hint="Mustermann"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_Nachname" />
+            <TextView
+                android:id="@+id/textView_Vorname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Vorname"
+                android:textColor="@android:color/black"
+                android:textSize="22sp" />
 
-    <TextView
-        android:id="@+id/textView_Email"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="E-Mail"
-        android:textColor="@color/Rot_corporate"
-        android:textSize="22sp"
-        app:layout_constraintStart_toStartOf="@+id/editText_Nachname"
-        app:layout_constraintTop_toBottomOf="@+id/editText_Nachname" />
+            <EditText
+                android:id="@+id/editText_Vorname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/register_kachel"
+                android:ems="10"
+                android:hint="Vorname eingeben"
+                android:inputType="textPersonName" />
 
-    <EditText
-        android:id="@+id/editText_Email"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="16dp"
-        android:background="@drawable/register_kachel"
-        android:ems="10"
-        android:hint="maxmustermann@outlook.com"
-        android:inputType="textEmailAddress"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_Email" />
+            <TextView
+                android:id="@+id/textView_Nachname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Nachname"
+                android:textColor="@android:color/black"
+                android:textSize="22sp" />
 
-    <TextView
-        android:id="@+id/textView_Passwort1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="Passwort"
-        android:textColor="@color/Rot_corporate"
-        android:textSize="22sp"
-        app:layout_constraintStart_toStartOf="@+id/editText_Email"
-        app:layout_constraintTop_toBottomOf="@+id/editText_Email" />
+            <EditText
+                android:id="@+id/editText_Nachname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/register_kachel"
+                android:ems="10"
+                android:hint="Nachname eingeben"
+                android:inputType="textPersonName" />
 
-    <EditText
-        android:id="@+id/editText_Passwort1"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="16dp"
-        android:background="@drawable/register_kachel"
-        android:ems="10"
-        android:hint="Passwort eingeben"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_Passwort1" />
+            <TextView
+                android:id="@+id/textView_Email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:text="E-Mail"
+                android:textColor="@android:color/black"
+                android:textSize="22sp" />
 
-    <TextView
-        android:id="@+id/textView_Passwort2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="Passwort bestätigen"
-        android:textColor="@color/Rot_corporate"
-        android:textSize="22sp"
-        app:layout_constraintStart_toStartOf="@+id/editText_Passwort1"
-        app:layout_constraintTop_toBottomOf="@+id/editText_Passwort1" />
+            <EditText
+                android:id="@+id/editText_Email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/register_kachel"
+                android:ems="10"
+                android:hint="Email eingeben"
+                android:inputType="textEmailAddress" />
 
-    <EditText
-        android:id="@+id/editText_Passwort2"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="16dp"
-        android:background="@drawable/register_kachel"
-        android:ems="10"
-        android:hint="Passwort erneut eingeben"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_Passwort2" />
+            <TextView
+                android:id="@+id/textView_Passwort1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Passwort"
+                android:textColor="@android:color/black"
+                android:textSize="22sp" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:background="@drawable/red_button"
-        android:text="Registrieren"
-        android:textColor="@android:color/white"
-        android:textSize="28sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText_Passwort2" />
+            <EditText
+                android:id="@+id/editText_Passwort1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/register_kachel"
+                android:ems="10"
+                android:hint="Passwort eingeben"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView_Passwort2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Passwort bestätigen"
+                android:textColor="@android:color/black"
+                android:textSize="22sp" />
+
+            <EditText
+                android:id="@+id/editText_Passwort2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/register_kachel"
+                android:hint="Passwort erneut eingeben"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/red_button"
+                android:text="Registrieren"
+                android:textColor="@android:color/white"
+                android:textSize="28sp" />
+        </LinearLayout>
+    </ScrollView>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
