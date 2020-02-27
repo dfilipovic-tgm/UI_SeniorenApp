@@ -27,7 +27,7 @@ public class Aktivitaet extends AppCompatActivity {
             }
         });
 
-        Button button2= (Button) findViewById(R.id.button_home);
+        Button button2= (Button) findViewById(R.id.buttonHaus);
         button2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
 
