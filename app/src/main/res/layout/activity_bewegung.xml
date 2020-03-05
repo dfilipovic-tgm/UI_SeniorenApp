@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Klubs">
-
+    tools:context=".Bewegung">
     <TextView
         android:id="@+id/textView"
         android:layout_width="0dp"
@@ -69,7 +68,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp"
                 android:background="@drawable/klubs_kachel"
-                android:text="Schlagergasse 2/1, 1090 Wien"
+                android:text="Bewegung1"
                 android:textColor="@android:color/white"
                 android:textSize="18sp" />
 
@@ -79,7 +78,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp"
                 android:background="@drawable/klubs_kachel"
-                android:text="Beispiel 2"
+                android:text="BewegungBewegungBewegung2"
                 android:textColor="@android:color/white"
                 android:textSize="18sp" />
 
@@ -156,5 +155,4 @@
 
         </LinearLayout>
     </ScrollView>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

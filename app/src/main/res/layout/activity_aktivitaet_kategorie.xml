@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Homescreen">
+    tools:context=".AktivitaetKategorie">
 
     <ImageView
         android:id="@+id/imageView2"
@@ -30,17 +30,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <TextView
-            android:id="@+id/startseite"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="50dp"
-            android:fontFamily="sans-serif-medium"
-            android:text="Startseite"
-            android:textColor="#000000"
-            android:textSize="40sp"
-            android:textScaleX="1.1"
-            />
 
         <LinearLayout
             android:id="@+id/linearLayout"
@@ -50,7 +39,7 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/buttonBewegung"
                 android:layout_width="0px"
                 android:layout_height="match_parent"
                 android:layout_marginRight="8dp"
@@ -59,12 +48,12 @@
                 android:drawableTop="@drawable/ic_casino"
                 android:fontFamily="sans-serif-black"
                 android:maxHeight="150dp"
-                android:text="Aktivität"
+                android:text="Bewegung"
                 android:textColor="@android:color/white"
                 android:textSize="26sp" />
 
             <Button
-                android:id="@+id/button6"
+                android:id="@+id/buttonMusik"
                 android:layout_width="0px"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="8dp"
@@ -72,7 +61,7 @@
                 android:background="@drawable/homescreen_kachel"
                 android:drawableTop="@drawable/ic_person_white"
                 android:fontFamily="sans-serif-black"
-                android:text="Profil"
+                android:text="Musik &amp; Tanz"
                 android:textColor="@android:color/white"
                 android:textSize="26sp" />
         </LinearLayout>
@@ -84,20 +73,20 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button7"
+                android:id="@+id/buttonSpiel"
                 android:layout_width="0px"
                 android:layout_height="match_parent"
                 android:layout_marginRight="8dp"
                 android:layout_weight="1"
                 android:background="@drawable/homescreen_kachel"
-                android:drawableTop="@drawable/ic_location_city_white"
+                android:drawableTop="@drawable/ic_icons8_bowling_pins_50"
                 android:fontFamily="sans-serif-black"
-                android:text="Klubs"
+                android:text="Spiel &amp; Spaß"
                 android:textColor="@android:color/white"
                 android:textSize="26sp" />
 
             <Button
-                android:id="@+id/button8"
+                android:id="@+id/buttonBildung"
                 android:layout_width="0px"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="8dp"
@@ -105,7 +94,7 @@
                 android:background="@drawable/homescreen_kachel"
                 android:drawableTop="@drawable/ic_chat_bubble_white"
                 android:fontFamily="sans-serif-black"
-                android:text="Austausch"
+                android:text="Bildung &amp; Lernen"
                 android:textColor="@android:color/white"
                 android:textSize="26sp" />
 
