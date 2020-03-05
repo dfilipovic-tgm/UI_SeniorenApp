@@ -61,7 +61,7 @@
                 android:maxHeight="150dp"
                 android:text="Aktivität"
                 android:textColor="@android:color/white"
-                android:textSize="26sp" />
+                android:textSize="28sp" />
 
             <Button
                 android:id="@+id/button6"
@@ -74,7 +74,7 @@
                 android:fontFamily="sans-serif-black"
                 android:text="Profil"
                 android:textColor="@android:color/white"
-                android:textSize="26sp" />
+                android:textSize="28sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -94,7 +94,7 @@
                 android:fontFamily="sans-serif-black"
                 android:text="Klubs"
                 android:textColor="@android:color/white"
-                android:textSize="26sp" />
+                android:textSize="28sp" />
 
             <Button
                 android:id="@+id/button8"
@@ -107,7 +107,7 @@
                 android:fontFamily="sans-serif-black"
                 android:text="Austausch"
                 android:textColor="@android:color/white"
-                android:textSize="26sp" />
+                android:textSize="28sp" />
 
         </LinearLayout>
 
