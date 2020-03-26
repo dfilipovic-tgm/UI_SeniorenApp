@@ -12,9 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".ChatUsers"></activity>
-        <activity android:name=".klub_info" />
+        <activity android:name=".AktivitaetKategorie" />
         <activity android:name=".ProfilActivity" />
         <activity android:name=".Klubs" />
+        <activity android:name=".KlubInfo" />
         <activity android:name=".Homescreen" />
         <activity android:name=".Aktivitaet" />
         <activity android:name=".Aktivitaeten_Activity" />

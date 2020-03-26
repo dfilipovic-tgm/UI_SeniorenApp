@@ -17,18 +17,19 @@
         app:srcCompat="@drawable/logo_pk" />
 
 
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
         android:gravity="center"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
 
 
         <LinearLayout
@@ -63,7 +64,7 @@
                 android:fontFamily="sans-serif-black"
                 android:text="Musik &amp; Tanz"
                 android:textColor="@android:color/white"
-                android:textSize="26sp" />
+                android:textSize="23sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -79,22 +80,21 @@
                 android:layout_marginRight="8dp"
                 android:layout_weight="1"
                 android:background="@drawable/homescreen_kachel"
-                android:drawableTop="@drawable/ic_icons8_bowling_pins_50"
                 android:fontFamily="sans-serif-black"
-                android:text="Spiel &amp; Spaß"
+                android:text="Spiele"
                 android:textColor="@android:color/white"
                 android:textSize="26sp" />
 
             <Button
                 android:id="@+id/buttonBildung"
                 android:layout_width="0px"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_marginLeft="8dp"
                 android:layout_weight="1"
                 android:background="@drawable/homescreen_kachel"
                 android:drawableTop="@drawable/ic_chat_bubble_white"
                 android:fontFamily="sans-serif-black"
-                android:text="Bildung &amp; Lernen"
+                android:text=" Lernen"
                 android:textColor="@android:color/white"
                 android:textSize="26sp" />
 
