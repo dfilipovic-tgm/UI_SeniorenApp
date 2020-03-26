@@ -6,15 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".ChatUsers">
 
-    <ListView
-        android:id="@+id/listview_chat"
-        android:layout_width="0dp"
+    <ScrollView
+        android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView13">
+
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -40,12 +39,13 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Roland"
+                    android:onClick="goToChat"
                     android:textSize="36dp"
                     android:textColor="@android:color/black"/>
             </LinearLayout>
         </LinearLayout>
 
-    </ListView>
+    </ScrollView>
 
     <TextView
         android:id="@+id/textView13"
@@ -65,5 +65,7 @@
         android:text="Unterhaltung"
         android:textColor="@android:color/white"
         android:textSize="36dp"
-        app:layout_constraintStart_toStartOf="@+id/textView13" />
+        app:layout_constraintBottom_toBottomOf="@+id/textView13"
+        app:layout_constraintStart_toStartOf="@+id/textView13"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
