@@ -62,13 +62,13 @@
             android:gravity="center_horizontal">
 
             <Button
-                android:id="@+id/buttonSchlag"
+                android:id="@+id/buttonSpiel"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp"
+                android:layout_marginTop="16dp"
                 android:background="@drawable/klubs_kachel"
-                android:text="SpielSpaßßßßßßßßßß"
+                android:text="Bingo"
                 android:textColor="@android:color/white"
                 android:textSize="18sp" />
 

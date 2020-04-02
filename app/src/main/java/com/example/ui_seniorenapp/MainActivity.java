@@ -12,48 +12,39 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_homescreen);
+        setContentView(R.layout.activity_login);
 
 
-
-        Button button5 = (Button) findViewById(R.id.button5);
-        button5.setOnClickListener(new View.OnClickListener() {
+        Button button1 = (Button) findViewById(R.id.button_gast);
+        button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, AktivitaetKategorie.class);
+                Intent intent = new Intent(MainActivity.this, HomescreenAlsGast.class);
                 startActivity(intent);
             }
         });
 
-        Button button2 = (Button) findViewById(R.id.button8);
+        Button button2 = (Button) findViewById(R.id.button_login);
         button2.setOnClickListener(new View.OnClickListener() {
+            @Override
             public void onClick(View v) {
-
-                Intent intent = new Intent(MainActivity.this, ChatUsers.class);
+                Intent intent = new Intent(MainActivity.this, Homescreen.class);
                 startActivity(intent);
-
             }
         });
 
-        Button button7 = (Button) findViewById(R.id.button7);
-        button7.setOnClickListener(new View.OnClickListener() {
+        Button button3 = (Button) findViewById(R.id.button_register);
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
             public void onClick(View v) {
-
-                Intent intent = new Intent(MainActivity.this, Klubs.class);
+                Intent intent = new Intent(MainActivity.this, RegisterActivity.class);
                 startActivity(intent);
-
             }
         });
 
-        Button button6 = (Button) findViewById(R.id.button6);
-        button6.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-
-                Intent intent = new Intent(MainActivity.this, ProfilActivity.class);
-                startActivity(intent);
-
-            }
-        });
 
     }
+
+
+
 }

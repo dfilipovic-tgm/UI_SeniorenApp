@@ -2,8 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.ui_seniorenapp">
 
-    <uses-permission android:name="android.permission.INTERNET" />
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -11,14 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ChatUsers"></activity>
+        <activity android:name=".HomescreenAlsGast"></activity>
+        <activity android:name=".ChatUsers" />
         <activity android:name=".AktivitaetKategorie" />
         <activity android:name=".ProfilActivity" />
         <activity android:name=".Klubs" />
         <activity android:name=".KlubInfo" />
         <activity android:name=".Homescreen" />
         <activity android:name=".Aktivitaet" />
+        <activity android:name=".MusikTanz" />
+        <activity android:name=".Bewegung" />
         <activity android:name=".Aktivitaeten_Activity" />
+        <activity android:name=".BildungLernen" />
+        <activity android:name=".SpielSpass" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".MainActivity">
@@ -30,5 +33,7 @@
         </activity>
         <activity android:name=".ChatActivity" />
     </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>

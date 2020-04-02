@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Homescreen">
+    tools:context=".HomescreenAlsGast">
 
     <ImageView
         android:id="@+id/imageView2"
@@ -69,6 +69,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/homescreen_kachel"
                 android:drawableTop="@drawable/ic_person_white"
+                android:backgroundTint="@color/Colorgrey"
                 android:fontFamily="sans-serif-black"
                 android:text="Profil"
                 android:textColor="@android:color/white"
@@ -102,6 +103,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/homescreen_kachel"
                 android:drawableTop="@drawable/ic_chat_bubble_white"
+                android:backgroundTint="@color/Colorgrey"
                 android:fontFamily="sans-serif-black"
                 android:text="Austausch"
                 android:textColor="@android:color/white"
@@ -109,6 +111,13 @@
 
         </LinearLayout>
 
+        <TextView
+            android:id="@+id/alsgast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text='Bitte melden Sie sich an, um Zugriff auf "Profil" und auf "Austausch" zu bekommen'
+            android:textAlignment="center"
+            android:textSize="20sp" />
 
     </LinearLayout>
 

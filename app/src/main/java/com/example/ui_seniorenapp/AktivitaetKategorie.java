@@ -15,10 +15,10 @@ public class AktivitaetKategorie extends AppCompatActivity {
         setContentView(R.layout.activity_aktivitaet_kategorie);
 
 
-    Button buttonBewegung = (Button) findViewById(R.id.buttonBewegung);
-    Button buttonMusik = (Button) findViewById(R.id.buttonMusik);
-    Button buttonSpiel = (Button) findViewById(R.id.buttonSpiel);
-    Button buttonBildung = (Button) findViewById(R.id.buttonBildung);
+     Button buttonBewegung = (Button) findViewById(R.id.buttonBewegungKat);
+    Button buttonMusik = (Button) findViewById(R.id.buttonMusikKat);
+    Button buttonSpiel = (Button) findViewById(R.id.buttonSpielKat);
+    Button buttonBildung = (Button) findViewById(R.id.buttonLernenKat);
 
     buttonBewegung.setOnClickListener(new View.OnClickListener()
     {

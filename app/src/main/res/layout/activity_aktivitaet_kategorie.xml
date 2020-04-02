@@ -40,13 +40,13 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/buttonBewegung"
+                android:id="@+id/buttonBewegungKat"
                 android:layout_width="0px"
                 android:layout_height="match_parent"
                 android:layout_marginRight="8dp"
                 android:layout_weight="1"
                 android:background="@drawable/homescreen_kachel"
-                android:drawableTop="@drawable/ic_casino"
+                android:drawableTop="@drawable/ic_bewegung"
                 android:fontFamily="sans-serif-black"
                 android:maxHeight="150dp"
                 android:text="Bewegung"
@@ -54,18 +54,19 @@
                 android:textSize="26sp" />
 
             <Button
-                android:id="@+id/buttonMusik"
+                android:id="@+id/buttonMusikKat"
                 android:layout_width="0px"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="8dp"
                 android:layout_weight="1"
                 android:background="@drawable/homescreen_kachel"
-                android:drawableTop="@drawable/ic_person_white"
+                android:drawableTop="@drawable/ic_tanzen"
                 android:fontFamily="sans-serif-black"
                 android:text="Musik &amp; Tanz"
                 android:textColor="@android:color/white"
                 android:textSize="23sp" />
         </LinearLayout>
+
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -74,25 +75,26 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/buttonSpiel"
+                android:id="@+id/buttonSpielKat"
                 android:layout_width="0px"
                 android:layout_height="match_parent"
                 android:layout_marginRight="8dp"
                 android:layout_weight="1"
                 android:background="@drawable/homescreen_kachel"
+                android:drawableTop="@drawable/ic_bowling"
                 android:fontFamily="sans-serif-black"
                 android:text="Spiele"
                 android:textColor="@android:color/white"
                 android:textSize="26sp" />
 
             <Button
-                android:id="@+id/buttonBildung"
+                android:id="@+id/buttonLernenKat"
                 android:layout_width="0px"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="8dp"
                 android:layout_weight="1"
                 android:background="@drawable/homescreen_kachel"
-                android:drawableTop="@drawable/ic_chat_bubble_white"
+                android:drawableTop="@drawable/ic_studie"
                 android:fontFamily="sans-serif-black"
                 android:text=" Lernen"
                 android:textColor="@android:color/white"
