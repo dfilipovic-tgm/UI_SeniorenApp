@@ -41,7 +41,7 @@
         app:layout_constraintEnd_toEndOf="@+id/textView"
         app:layout_constraintStart_toStartOf="@+id/textView"
         app:layout_constraintTop_toTopOf="@+id/textView"
-        app:srcCompat="@drawable/ic_location_city_white"
+        app:srcCompat="@drawable/ic_bewegung"
         tools:ignore="VectorDrawableCompat" />
 
     <ScrollView
@@ -65,60 +65,60 @@
                 android:id="@+id/buttonBewegung"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp"
+                android:layout_marginTop="16dp"
                 android:background="@drawable/klubs_kachel"
-                android:text="Bewegung1"
+                android:text="Nordic Walking"
                 android:textColor="@android:color/white"
                 android:textSize="18sp" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp"
+                android:layout_marginTop="16dp"
                 android:background="@drawable/klubs_kachel"
-                android:text="BewegungBewegungBewegung2"
+                android:text="Yoga"
                 android:textColor="@android:color/white"
                 android:textSize="18sp" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp"
+                android:layout_marginTop="16dp"
                 android:background="@drawable/klubs_kachel"
-                android:text="Beispiel 3"
+                android:text="Gehen und Wandern"
                 android:textColor="@android:color/white"
                 android:textSize="18sp" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp"
+                android:layout_marginTop="16dp"
                 android:background="@drawable/klubs_kachel"
-                android:text="Beispiel 4"
+                android:text="Gymnastik"
                 android:textColor="@android:color/white"
                 android:textSize="18sp" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp"
+                android:layout_marginTop="16dp"
                 android:background="@drawable/klubs_kachel"
-                android:text="Beispiel 5"
+                android:text="Schwimmen"
                 android:textColor="@android:color/white"
                 android:textSize="18sp" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp"
+                android:layout_marginTop="16dp"
                 android:background="@drawable/klubs_kachel"
-                android:text="Beispiel 6"
+                android:text="Beispiel 6wdwdwdwdwdwdwdwd"
                 android:textColor="@android:color/white"
                 android:textSize="18sp" />
 

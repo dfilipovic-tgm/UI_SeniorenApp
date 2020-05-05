@@ -30,11 +30,12 @@
 
         <TextView
             android:id="@+id/startseite"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:layout_marginBottom="50dp"
             android:fontFamily="sans-serif-medium"
-            android:text="Startseite"
+            android:text=""
+            android:background="@drawable/ic_home_black_24dp"
             android:textColor="#000000"
             android:textSize="40sp"
             android:textScaleX="1.1"
@@ -117,7 +118,9 @@
             android:layout_height="wrap_content"
             android:text='Bitte melden Sie sich an, um Zugriff auf "Profil" und auf "Austausch" zu bekommen'
             android:textAlignment="center"
-            android:textSize="20sp" />
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
     </LinearLayout>
 
